@@ -23,7 +23,7 @@ function renderQuotes(products) {
 window.addEventListener('load', async () => {
   if ('serviceWorker' in navigator) {
     try {
-      const reg =  await navigator.serviceWorker.register("/sw.js");
+      const reg =  await navigator.serviceWorker.register("/pwa-learn-vanilla/sw.js");
       console.log("✅ Service Worker registered success:", reg);
     } catch (error) {
       console.log("❌ Service Worker registration failed: ", error);
