@@ -5,7 +5,7 @@
   "background_color": "#40484f",
   "display": "fullscreen",
   "orientation": "portrait",
-  "start_url": ".",
+  "start_url": "/pwa-learn-vanilla/",
   "icons": [
     {
       "src": "/pwa-learn-vanilla/icons/icon-96-96.png",
